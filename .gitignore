@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+.ruff_cache/
+runs/
+batches/
+*.egg-info/
+build/
+dist/
+.DS_Store
+
+# Local credentials and generated evidence
+.env.*
+*.pem
+*.key
+*.log
+*.jsonl
+*.sqlite*
+results/
+**/results/
+docs/evidence/
+docs/*.json
